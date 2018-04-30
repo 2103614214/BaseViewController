@@ -7,6 +7,12 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		EF11BD3B20977278001364A9 /* NSObject+Property.m in Sources */ = {isa = PBXBuildFile; fileRef = EF11BD2A20977278001364A9 /* NSObject+Property.m */; };
+		EF11BD3C20977278001364A9 /* ShowAnimationView.m in Sources */ = {isa = PBXBuildFile; fileRef = EF11BD2C20977278001364A9 /* ShowAnimationView.m */; };
+		EF11BD3D20977278001364A9 /* WLLabel.m in Sources */ = {isa = PBXBuildFile; fileRef = EF11BD2F20977278001364A9 /* WLLabel.m */; };
+		EF11BD3E20977278001364A9 /* MZTimerLabel.m in Sources */ = {isa = PBXBuildFile; fileRef = EF11BD3420977278001364A9 /* MZTimerLabel.m */; };
+		EF11BD3F20977278001364A9 /* UIFont+Fit.m in Sources */ = {isa = PBXBuildFile; fileRef = EF11BD3620977278001364A9 /* UIFont+Fit.m */; };
+		EF11BD4020977278001364A9 /* UIView+AlertPop.m in Sources */ = {isa = PBXBuildFile; fileRef = EF11BD3A20977278001364A9 /* UIView+AlertPop.m */; };
 		EF3CD42B206B35110075E71E /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = EF3CD42A206B35110075E71E /* AppDelegate.m */; };
 		EF3CD431206B35110075E71E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EF3CD42F206B35110075E71E /* Main.storyboard */; };
 		EF3CD433206B35110075E71E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EF3CD432206B35110075E71E /* Assets.xcassets */; };
@@ -73,6 +79,18 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		EF11BD2920977278001364A9 /* NSObject+Property.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+Property.h"; sourceTree = "<group>"; };
+		EF11BD2A20977278001364A9 /* NSObject+Property.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+Property.m"; sourceTree = "<group>"; };
+		EF11BD2C20977278001364A9 /* ShowAnimationView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ShowAnimationView.m; sourceTree = "<group>"; };
+		EF11BD2D20977278001364A9 /* ShowAnimationView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ShowAnimationView.h; sourceTree = "<group>"; };
+		EF11BD2F20977278001364A9 /* WLLabel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WLLabel.m; sourceTree = "<group>"; };
+		EF11BD3020977278001364A9 /* WLLabel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WLLabel.h; sourceTree = "<group>"; };
+		EF11BD3320977278001364A9 /* MZTimerLabel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MZTimerLabel.h; sourceTree = "<group>"; };
+		EF11BD3420977278001364A9 /* MZTimerLabel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MZTimerLabel.m; sourceTree = "<group>"; };
+		EF11BD3620977278001364A9 /* UIFont+Fit.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIFont+Fit.m"; sourceTree = "<group>"; };
+		EF11BD3720977278001364A9 /* UIFont+Fit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIFont+Fit.h"; sourceTree = "<group>"; };
+		EF11BD3920977278001364A9 /* UIView+AlertPop.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+AlertPop.h"; sourceTree = "<group>"; };
+		EF11BD3A20977278001364A9 /* UIView+AlertPop.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+AlertPop.m"; sourceTree = "<group>"; };
 		EF3CD426206B35110075E71E /* BaseViewController.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BaseViewController.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		EF3CD429206B35110075E71E /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		EF3CD42A206B35110075E71E /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -193,6 +211,81 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		EF11BD2720977278001364A9 /* 小工具 */ = {
+			isa = PBXGroup;
+			children = (
+				EF11BD2820977278001364A9 /* 字典转模型 */,
+				EF11BD2B20977278001364A9 /* 超级蒙板 */,
+				EF11BD2E20977278001364A9 /* 富文本 */,
+				EF11BD3120977278001364A9 /* 定时器 */,
+				EF11BD3520977278001364A9 /* 适配字体大小 */,
+				EF11BD3820977278001364A9 /* 弹窗 */,
+			);
+			path = "小工具";
+			sourceTree = "<group>";
+		};
+		EF11BD2820977278001364A9 /* 字典转模型 */ = {
+			isa = PBXGroup;
+			children = (
+				EF11BD2920977278001364A9 /* NSObject+Property.h */,
+				EF11BD2A20977278001364A9 /* NSObject+Property.m */,
+			);
+			path = "字典转模型";
+			sourceTree = "<group>";
+		};
+		EF11BD2B20977278001364A9 /* 超级蒙板 */ = {
+			isa = PBXGroup;
+			children = (
+				EF11BD2C20977278001364A9 /* ShowAnimationView.m */,
+				EF11BD2D20977278001364A9 /* ShowAnimationView.h */,
+			);
+			path = "超级蒙板";
+			sourceTree = "<group>";
+		};
+		EF11BD2E20977278001364A9 /* 富文本 */ = {
+			isa = PBXGroup;
+			children = (
+				EF11BD2F20977278001364A9 /* WLLabel.m */,
+				EF11BD3020977278001364A9 /* WLLabel.h */,
+			);
+			path = "富文本";
+			sourceTree = "<group>";
+		};
+		EF11BD3120977278001364A9 /* 定时器 */ = {
+			isa = PBXGroup;
+			children = (
+				EF11BD3220977278001364A9 /* MZTimerLabel */,
+			);
+			path = "定时器";
+			sourceTree = "<group>";
+		};
+		EF11BD3220977278001364A9 /* MZTimerLabel */ = {
+			isa = PBXGroup;
+			children = (
+				EF11BD3320977278001364A9 /* MZTimerLabel.h */,
+				EF11BD3420977278001364A9 /* MZTimerLabel.m */,
+			);
+			path = MZTimerLabel;
+			sourceTree = "<group>";
+		};
+		EF11BD3520977278001364A9 /* 适配字体大小 */ = {
+			isa = PBXGroup;
+			children = (
+				EF11BD3620977278001364A9 /* UIFont+Fit.m */,
+				EF11BD3720977278001364A9 /* UIFont+Fit.h */,
+			);
+			path = "适配字体大小";
+			sourceTree = "<group>";
+		};
+		EF11BD3820977278001364A9 /* 弹窗 */ = {
+			isa = PBXGroup;
+			children = (
+				EF11BD3920977278001364A9 /* UIView+AlertPop.h */,
+				EF11BD3A20977278001364A9 /* UIView+AlertPop.m */,
+			);
+			path = "弹窗";
+			sourceTree = "<group>";
+		};
 		EF3CD41D206B35110075E71E = {
 			isa = PBXGroup;
 			children = (
@@ -249,6 +342,7 @@
 		EF3CD45B206B35770075E71E /* Classes */ = {
 			isa = PBXGroup;
 			children = (
+				EF11BD2720977278001364A9 /* 小工具 */,
 				EF3CD461206B35770075E71E /* BaseViewController.h */,
 				EF3CD45E206B35770075E71E /* BaseViewController.m */,
 				EF3CD460206B35770075E71E /* TestViewController.h */,
@@ -558,6 +652,8 @@
 			files = (
 				EF3CD4C9206B35780075E71E /* MJRefreshBackFooter.m in Sources */,
 				EF3CD4B6206B35770075E71E /* TestViewController.m in Sources */,
+				EF11BD3D20977278001364A9 /* WLLabel.m in Sources */,
+				EF11BD4020977278001364A9 /* UIView+AlertPop.m in Sources */,
 				EF3CD4D4206B35780075E71E /* UIWebView+AFNetworking.m in Sources */,
 				EF3CD4D2206B35780075E71E /* UIButton+AFNetworking.m in Sources */,
 				EF3CD4D7206B35780075E71E /* AFURLResponseSerialization.m in Sources */,
@@ -572,7 +668,9 @@
 				EF3CD4BE206B35780075E71E /* MJRefreshBackGifFooter.m in Sources */,
 				EF3CD4C6206B35780075E71E /* MJRefreshGifHeader.m in Sources */,
 				EF3CD4CB206B35780075E71E /* MJRefreshComponent.m in Sources */,
+				EF11BD3B20977278001364A9 /* NSObject+Property.m in Sources */,
 				EF3CD4BA206B35780075E71E /* MJRefreshConst.m in Sources */,
+				EF11BD3E20977278001364A9 /* MZTimerLabel.m in Sources */,
 				EF3CD4D8206B35780075E71E /* AFHTTPSessionManager.m in Sources */,
 				EF3CD4BD206B35780075E71E /* UIView+MJExtension.m in Sources */,
 				EF3CD4CA206B35780075E71E /* MJRefreshAutoFooter.m in Sources */,
@@ -581,10 +679,12 @@
 				EF3CD4C4206B35780075E71E /* MJRefreshNormalHeader.m in Sources */,
 				EF3CD439206B35110075E71E /* main.m in Sources */,
 				EF3CD4D1206B35780075E71E /* UIImageView+AFNetworking.m in Sources */,
+				EF11BD3C20977278001364A9 /* ShowAnimationView.m in Sources */,
 				EF3CD4CE206B35780075E71E /* UIProgressView+AFNetworking.m in Sources */,
 				EF3CD4C7206B35780075E71E /* MJRefreshFooter.m in Sources */,
 				EF3CD4C3206B35780075E71E /* MJRefreshAutoNormalFooter.m in Sources */,
 				EF3CD4DA206B35780075E71E /* AFURLRequestSerialization.m in Sources */,
+				EF11BD3F20977278001364A9 /* UIFont+Fit.m in Sources */,
 				EF3CD4C8206B35780075E71E /* MJRefreshHeader.m in Sources */,
 				EF3CD4D3206B35780075E71E /* UIActivityIndicatorView+AFNetworking.m in Sources */,
 				EF3CD4C0206B35780075E71E /* MJRefreshBackNormalFooter.m in Sources */,
